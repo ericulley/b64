@@ -1,6 +1,17 @@
 # b64 Command Line Tool
 
-This is an extremely simple command line tool that decodes or encodes string to/from base64 encoding.
+This is an extremely simple command line tool that decodes or encodes a string to/from base64 encoding.
+
+## Install
+
+```
+git clone https://github.com/ericulley/b64.git
+cd b64
+go build
+go install
+```
+
+This installs the `b64` binary to `$GOBIN`, which defaults to `$HOME/go/bin` (make sure it's on your `PATH`).
 
 ## Usage
 
